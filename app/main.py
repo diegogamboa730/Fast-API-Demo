@@ -18,7 +18,7 @@ app = FastAPI()
 #IF I WANT IT TO BE PUBLIC THEN -> origins = ["*"]
 #If api will power an application only applicatio 
 #domiain should be used in the origins.
-origins = ["https://www.google.com"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
